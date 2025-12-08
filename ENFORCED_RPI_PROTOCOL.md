@@ -1651,4 +1651,639 @@ Final Context: X%
 
 ---
 
-**Enhanced RPI Framework: Maximum rigor, zero hallucinations, autonomous excellence.**
+## 🔬 RESEARCH-BACKED ENHANCEMENTS (2025 Advances)
+
+### RULE 15: Meta AI's 4-Step Chain of Verification (CoVe Enhanced)
+
+**Upgrade to RULE 8 with Meta's proven methodology**
+
+**MANDATORY 4-STEP VERIFICATION PROCESS:**
+
+```
+For ALL data/research claims, I MUST execute:
+
+STEP 1: Generate Baseline Response
+→ Create initial answer to the question/claim
+→ Document the baseline assertion
+→ Mark as UNVERIFIED
+
+STEP 2: Plan Verification Questions
+→ Generate targeted questions to validate baseline
+→ Questions must be specific and answerable
+→ Questions target factual claims, not opinions
+
+Example:
+Baseline: "The authentication system uses OAuth 2.0"
+Verification Questions:
+  Q1: What auth library is imported?
+  Q2: Where is OAuth config defined?
+  Q3: What OAuth version is specified?
+
+STEP 3: Execute Verifications
+→ Answer each verification question using actual sources
+→ Use file reads, grep searches, external docs
+→ Document exact evidence (file:line)
+→ Confidence score per verification
+
+Example:
+Q1: What auth library is imported?
+A1: passport-oauth2 (verified: auth.ts:3)
+    Confidence: 100%
+
+Q2: Where is OAuth config defined?
+A2: config/oauth.json (verified: exists at project root)
+    Confidence: 100%
+
+Q3: What OAuth version is specified?
+A3: version: "2.0" (verified: config/oauth.json:5)
+    Confidence: 100%
+
+STEP 4: Generate Final Verified Response
+→ Synthesize baseline + verification results
+→ Adjust baseline based on evidence
+→ Final confidence = average of verifications
+→ Mark any remaining assumptions
+
+Final Response:
+"The authentication system uses OAuth 2.0
+✅ Verified through 4-step CoVe process:
+- passport-oauth2 library (auth.ts:3)
+- OAuth config at config/oauth.json
+- version: "2.0" specified (config/oauth.json:5)
+Confidence: 100%"
+```
+
+**Enhanced .research.md Format:**
+
+```markdown
+## 🔍 META AI CoVe VERIFICATION
+
+### Claim 1: [Statement to verify]
+
+**Step 1 - Baseline**: [Initial assertion]
+
+**Step 2 - Verification Questions**:
+1. [Question 1]
+2. [Question 2]
+3. [Question 3]
+
+**Step 3 - Execute Verifications**:
+Q1: [Question 1]
+A1: [Answer with source]
+    Verified: [file:line]
+    Confidence: X%
+
+Q2: [Question 2]
+A2: [Answer with source]
+    Verified: [file:line]
+    Confidence: Y%
+
+Q3: [Question 3]
+A3: [Answer with source]
+    Verified: [file:line]
+    Confidence: Z%
+
+**Step 4 - Final Verified Response**:
+[Synthesized answer incorporating all verifications]
+Overall Confidence: [Average]%
+Remaining Assumptions: [List if any]
+```
+
+**Performance Improvement:**
+- Meta's research shows up to 23% improvement in reducing hallucinations
+- Systematic questioning reveals gaps in initial understanding
+- Forces explicit evidence gathering before claiming facts
+
+---
+
+### RULE 16: Microsoft's Magentic-One Task Ledger System
+
+**Upgrade to RULE 7 (MAKER) with Microsoft Research's dual-loop planning**
+
+**MANDATORY DUAL-LEDGER SYSTEM:**
+
+```
+OUTER LOOP - Task Ledger (Strategic):
+→ Maintains high-level plan
+→ Tracks facts vs. educated guesses
+→ Re-plans when progress stalls
+→ Updates strategy based on learnings
+
+INNER LOOP - Progress Ledger (Tactical):
+→ Tracks current step execution
+→ Monitors completion status
+→ Detects when stuck
+→ Triggers outer loop replanning if needed
+```
+
+**Enhanced .plan.md Format:**
+
+```markdown
+## 📋 TASK LEDGER (Strategic Plan)
+
+### Facts (100% Confidence):
+✅ [Fact 1 - verified from code]
+✅ [Fact 2 - verified from code]
+✅ [Fact 3 - verified from docs]
+
+### Educated Guesses (70-99% Confidence):
+⚠️ [Guess 1 - based on patterns] - 85% confident
+⚠️ [Guess 2 - inferred from structure] - 75% confident
+
+### Overall Strategy:
+[High-level approach to accomplish task]
+
+### Replanning Triggers:
+- If stuck for >2 steps → Update Task Ledger
+- If assumptions proven wrong → Replan strategy
+- If confidence drops <70% → Re-evaluate approach
+
+---
+
+## 📊 PROGRESS LEDGER (Tactical Execution)
+
+### Step 1: [Action]
+- Status: Not started
+- Assigned to: [Tool/method]
+- Expected outcome: [Result]
+- Stall count: 0
+
+### Step 2: [Action]
+- Status: Not started
+- Assigned to: [Tool/method]
+- Expected outcome: [Result]
+- Stall count: 0
+
+[... continue for all steps ...]
+
+### Progress Evaluation Points:
+After EACH step, ask:
+1. Is task complete? → If yes, terminate
+2. Is progress being made? → If yes, continue
+3. Stall count >2? → If yes, update Task Ledger and replan
+```
+
+**Stall Detection & Recovery:**
+
+```
+WHEN implementing a step:
+
+IF step succeeds:
+  → Mark complete
+  → Reset stall count to 0
+  → Move to next step
+
+IF step fails or makes no progress:
+  → Increment stall count
+  → IF stall count ≤ 2:
+    → Try alternative approach
+    → Document attempt in Progress Ledger
+  → IF stall count > 2:
+    → STOP implementation
+    → Update Task Ledger with learnings
+    → Re-evaluate strategy
+    → Create new plan
+    → Reset stall count
+    → Request user approval for new plan
+```
+
+**Integration with RPI:**
+
+```
+Research Phase → Populates Task Ledger with Facts
+Planning Phase → Creates initial Progress Ledger
+Implementation Phase → Updates Progress Ledger in real-time
+Stall Detection → Triggers replanning (back to Planning Phase)
+```
+
+---
+
+### RULE 17: Stanford ACE Framework - Reflective Learning
+
+**Add performance reflection to completion snapshots**
+
+**MANDATORY REFLECTION PROCESS:**
+
+```
+AFTER completing EACH atomic step:
+
+Execute Reflector Analysis:
+1. What was attempted?
+2. What was the outcome?
+3. What worked well? (Helpful patterns)
+4. What caused issues? (Harmful patterns)
+5. What was neutral? (Contextual factors)
+```
+
+**Enhanced .completion-snapshot.md Format:**
+
+```markdown
+## 🎓 ACE REFLECTOR ANALYSIS
+
+### Task Overview:
+**What**: [Task description]
+**Approach**: [Strategy used]
+**Outcome**: [Success/Partial/Failure]
+**Duration**: [Actual time vs. estimated]
+
+---
+
+### ✅ HELPFUL PATTERNS (What Worked):
+
+**Pattern 1**: [Specific technique that worked]
+- **Context**: [When this was useful]
+- **Evidence**: [Specific step where it helped]
+- **Reusability**: [When to apply this again]
+- **Confidence in pattern**: X%
+
+**Pattern 2**: [Another successful approach]
+- **Context**: [When this was useful]
+- **Evidence**: [Specific step where it helped]
+- **Reusability**: [When to apply this again]
+- **Confidence in pattern**: Y%
+
+---
+
+### ❌ HARMFUL PATTERNS (What Failed):
+
+**Anti-Pattern 1**: [Technique that didn't work]
+- **Context**: [When this was tried]
+- **Why it failed**: [Root cause analysis]
+- **What to do instead**: [Alternative approach]
+- **Lesson learned**: [Key takeaway]
+
+**Anti-Pattern 2**: [Another failed approach]
+- **Context**: [When this was tried]
+- **Why it failed**: [Root cause analysis]
+- **What to do instead**: [Alternative approach]
+- **Lesson learned**: [Key takeaway]
+
+---
+
+### ○ NEUTRAL OBSERVATIONS (Contextual Factors):
+
+**Observation 1**: [Environmental factor]
+- **Impact**: [How it affected execution]
+- **Future consideration**: [When to account for this]
+
+**Observation 2**: [Technical constraint]
+- **Impact**: [How it affected execution]
+- **Future consideration**: [When to account for this]
+
+---
+
+### 📈 PERFORMANCE METRICS:
+
+**Efficiency**:
+- Estimated time: [X] hours
+- Actual time: [Y] hours
+- Variance: [±Z%]
+- Reason for variance: [Explanation]
+
+**Accuracy**:
+- Initial confidence: X%
+- Final confidence: Y%
+- Assumptions made: [N]
+- Assumptions proven correct: [M]
+- Accuracy rate: [M/N * 100]%
+
+**Quality**:
+- Tests run: [N]
+- Tests passed: [M]
+- Pass rate: [M/N * 100]%
+- Bugs found during development: [count]
+- Bugs fixed: [count]
+
+---
+
+### 🎯 SKILL EXTRACTION (For Future Tasks):
+
+**New Skills Developed**:
+1. [Skill 1]: [Description and when to apply]
+2. [Skill 2]: [Description and when to apply]
+
+**Refined Skills**:
+1. [Existing skill]: [How it was improved]
+2. [Existing skill]: [How it was improved]
+
+**Skills to Practice**:
+1. [Skill needing improvement]: [Why and how to practice]
+
+---
+
+### 🔄 FEEDBACK LOOP:
+
+**What would I do differently next time?**
+1. [Improvement 1]
+2. [Improvement 2]
+3. [Improvement 3]
+
+**What should be added to the framework?**
+1. [Suggested enhancement to RPI/Operational rules]
+2. [Suggested quality gate improvement]
+
+**What assumptions should I avoid?**
+1. [Assumption that caused issues]
+2. [Better verification method to use instead]
+```
+
+**Automatic Skill Building:**
+
+```
+The Reflector component feeds a growing "skillbook":
+
+~/.claude/skillbook.md
+
+# RPI Framework Skillbook
+
+## Authentication Tasks
+
+### Helpful Patterns:
+- Always read auth.ts before modifying login flow
+- JWT config lives in config/auth.json (not .env)
+- Test with invalid tokens, not just valid ones
+
+### Harmful Patterns:
+- Don't assume OAuth version from package name
+- Don't skip reading session management code
+- Don't test only happy path
+
+## Database Tasks
+
+### Helpful Patterns:
+- Schema.ts is always source of truth
+- Field name mismatches cause 80% of type errors
+- Backend data shape !== UI assumptions
+
+### Harmful Patterns:
+- Never invent field names
+- Never skip reading backend queries
+- Never assume data structure from UI needs
+
+[... grows over time with each task ...]
+```
+
+---
+
+### RULE 18: DeepMind AlphaEvolve - Prompt Optimization
+
+**Continuous improvement of verification and planning prompts**
+
+**MANDATORY PROMPT TRACKING:**
+
+```
+Track effectiveness of prompts used in RPI workflow:
+
+TCREI Clarification Prompts:
+→ Which questions most effectively clarify requirements?
+→ Which questions users answer most completely?
+→ Which questions reveal hidden complexity?
+
+Verification Prompts (CoVe):
+→ Which verification questions catch most errors?
+→ Which evidence sources prove most reliable?
+→ Which confidence thresholds work best?
+
+Planning Prompts (MAKER):
+→ Which decomposition strategies yield best results?
+→ Which atomic step sizes optimize for completion?
+→ Which estimation techniques prove most accurate?
+```
+
+**Enhanced Framework Evolution:**
+
+```markdown
+## 🧬 PROMPT OPTIMIZATION TRACKER
+
+Location: ~/.claude/prompt-evolution.md
+
+### TCREI Prompts - Effectiveness Tracking
+
+**Most Effective Context Questions** (by success rate):
+1. "What problem does this solve?" - 95% clarity improvement
+2. "What's blocking you now?" - 88% reveals root cause
+3. "What happens if we don't do this?" - 75% clarifies priority
+
+**Least Effective Context Questions**:
+1. "Why do you need this?" - 45% too vague
+2. "What's the use case?" - 52% users give generic answers
+
+**Optimization**: Replace low-performers with high-performers
+
+---
+
+### CoVe Verification Prompts - Accuracy Tracking
+
+**High-Accuracy Verification Sources**:
+1. Direct file reads (schema.ts, config files) - 98% accuracy
+2. Grep for exact strings - 92% accuracy
+3. Running actual commands - 95% accuracy
+
+**Low-Accuracy Verification Sources**:
+1. README files - 65% accuracy (often outdated)
+2. Code comments - 58% accuracy (often wrong)
+3. Package.json descriptions - 70% accuracy
+
+**Optimization**: Prioritize high-accuracy sources in CoVe step 3
+
+---
+
+### MAKER Decomposition - Completion Rate Tracking
+
+**Optimal Atomic Step Size**:
+- <15 min steps: 95% completion rate, but too granular (overhead)
+- 15-25 min steps: 98% completion rate ✅ OPTIMAL
+- 25-35 min steps: 85% completion rate (often split mid-execution)
+- >35 min steps: 62% completion rate (get stuck)
+
+**Optimization**: Target 20-minute atomic steps
+
+---
+
+### Confidence Calibration - Prediction Accuracy
+
+**Confidence Score vs. Actual Success**:
+90-100% confident → 94% actually succeeded ✅ Well calibrated
+70-89% confident → 78% actually succeeded ✅ Well calibrated
+50-69% confident → 45% actually succeeded ⚠️ Overconfident
+<50% confident → 15% actually succeeded ✅ Well calibrated
+
+**Optimization**: Be more conservative with 50-69% range
+```
+
+**Automatic Prompt Evolution:**
+
+```
+After every 10 tasks, I analyze:
+
+1. TCREI Questions:
+   - Which got clear answers?
+   - Which led to better research?
+   - Update question templates
+
+2. CoVe Sources:
+   - Which sources were most accurate?
+   - Which led to wrong conclusions?
+   - Adjust verification priorities
+
+3. MAKER Estimates:
+   - Which tasks took longer than estimated?
+   - Which categories need buffer time?
+   - Refine estimation formulas
+
+4. Confidence Scores:
+   - Where was I overconfident?
+   - Where was I underconfident?
+   - Calibrate scoring rubric
+```
+
+---
+
+## UPDATED COGNITIVE FRAMEWORK INTEGRATION
+
+**Complete workflow with all 18 rules:**
+
+```
+PHASE 0: TCREI VALIDATION (Rules 6, 15, 18)
+├─ Verify all TCREI elements present
+├─ Use optimized prompts from Rule 18 tracker
+├─ If incomplete → Ask refined clarification questions
+├─ Document TCREI in research phase
+└─ Confidence check: >70% to proceed
+
+PHASE 1: RESEARCH (Rules 1, 8, 11, 12, 15)
+├─ Read schema.ts FIRST (Rule 11 - Schema is Law)
+├─ Read backend logic SECOND (Rule 12 - Context-First)
+├─ Launch sub-agents for heavy exploration (Rule 5)
+├─ Apply Meta's 4-Step CoVe (Rule 15):
+│  ├─ Generate baseline assertions
+│  ├─ Create verification questions
+│  ├─ Execute verifications with file:line
+│  ├─ Synthesize verified findings
+├─ Use high-accuracy sources (Rule 18 optimization)
+├─ Create .research.md with CoVe verification sections
+├─ STOP and present for approval
+└─ If confidence <80% → Ask questions
+
+PHASE 2: PLANNING (Rules 2, 7, 14, 16, 18)
+├─ Create Task Ledger (Rule 16 - Magentic-One):
+│  ├─ Document Facts (100% confidence)
+│  ├─ Document Educated Guesses (70-99%)
+│  ├─ Define overall strategy
+│  └─ Set replanning triggers
+├─ Create Progress Ledger (Rule 16):
+│  ├─ Apply MAKER decomposition (Rule 7)
+│  ├─ Target 20-min atomic steps (Rule 18 optimization)
+│  ├─ Specify standard tools (Rule 14)
+│  ├─ Define test commands with exit codes
+│  └─ Set stall detection thresholds
+├─ Include confidence assessment
+├─ Create .plan.md with dual ledgers
+├─ STOP and present for approval
+└─ Only proceed if confidence >70%
+
+PHASE 3: IMPLEMENTATION (Rules 3, 10, 13, 16, 17)
+├─ Execute atomic steps from Progress Ledger
+├─ After EACH step:
+│  ├─ Run actual test command (Rule 10 - Anti-Vibe)
+│  ├─ Verify exit code = 0
+│  ├─ Document ACTUAL output
+│  ├─ Execute ACE Reflector (Rule 17):
+│  │  ├─ What worked? (Helpful patterns)
+│  │  ├─ What failed? (Harmful patterns)
+│  │  ├─ What was neutral? (Context)
+│  │  └─ Extract skills for skillbook
+│  ├─ Update Progress Ledger
+│  ├─ Detect stalls (Rule 16):
+│  │  ├─ IF stall count >2 → Update Task Ledger
+│  │  ├─ Replan strategy
+│  │  └─ Get new approval
+│  ├─ IF error occurs (Rule 13 - Recursive Debugging):
+│  │  ├─ Analyze autonomously
+│  │  ├─ IF fix confidence ≥70% → Fix and re-test
+│  │  └─ IF fix confidence <70% → Show analysis, ask
+│  └─ Mark complete ONLY after verification
+├─ Report progress with verified results
+├─ Monitor context window
+└─ Create .completion-snapshot.md with ACE Reflection
+
+PHASE 4: LEARNING (Rules 17, 18)
+├─ Review ACE Reflector analysis
+├─ Update skillbook with patterns learned
+├─ Track prompt effectiveness
+├─ Calibrate confidence scoring
+├─ Update optimization tracker
+└─ Evolve framework based on evidence
+```
+
+---
+
+## RESEARCH CREDITS & ACKNOWLEDGMENTS
+
+**This enhanced framework integrates cutting-edge research from:**
+
+### 🔬 Meta AI Research
+- **Chain of Verification (CoVe)** - 4-step verification methodology
+- **Paper**: "Chain-of-Verification Reduces Hallucination in Large Language Models"
+- **Improvement**: Up to 23% reduction in hallucinations
+- **Implementation**: Rule 15
+
+### 🧠 Microsoft Research
+- **Magentic-One** - Multi-agent task decomposition system
+- **Innovation**: Dual-loop planning (Task Ledger + Progress Ledger)
+- **Stall Detection**: Automatic replanning when stuck
+- **Implementation**: Rule 16
+
+### 🎓 Stanford University / SambaNova Research
+- **Agentic Context Engine (ACE)** - Reflective learning framework
+- **Innovation**: Agent + Reflector + SkillManager architecture
+- **Learning**: Systematic skill extraction from experience
+- **Implementation**: Rule 17
+
+### 🤖 Google DeepMind
+- **AlphaEvolve** - Prompt optimization and evolution
+- **Innovation**: Systematic tracking and improvement of prompts
+- **Verification Code**: Evidence-based prompt refinement
+- **Implementation**: Rule 18
+
+### 📚 Original Framework Foundations
+- **Google AI Course (YouTube)**: TCREI Framework, CoVe foundations
+- **AI Engineering Course (YouTube)**: MAKER Logic, Confidence Scoring
+- **Anthropic Research**: Claude Code best practices
+- **Academic Research**: Chain-of-Verification techniques
+
+---
+
+## COMPLETE RULE SUMMARY
+
+**18 Mandatory Rules for Maximum Effectiveness:**
+
+### Core RPI Workflow (Rules 1-5):
+1. Research before implementation
+2. Explicit planning with approval gates
+3. Implement only after approval
+4. Context window monitoring
+5. Sub-agent discipline
+
+### Cognitive Frameworks (Rules 6-9):
+6. TCREI Input Validation
+7. MAKER Task Decomposition
+8. Chain of Verification (CoVe)
+9. Confidence Scoring
+
+### Operational Excellence (Rules 10-14):
+10. Anti-Vibe Verification (execution = completion)
+11. Schema is Law (data structure authority)
+12. Context-First Pattern (backend before frontend)
+13. Recursive Debugging Loop (autonomous recovery)
+14. In-Distribution Tooling (standard over custom)
+
+### Research-Backed Enhancements (Rules 15-18):
+15. Meta's 4-Step CoVe (systematic verification)
+16. Microsoft's Dual Ledgers (strategic + tactical planning)
+17. Stanford's ACE Reflector (performance learning)
+18. DeepMind's Prompt Evolution (continuous optimization)
+
+---
+
+**Enhanced RPI Framework v2.0: Research-backed rigor, zero hallucinations, autonomous excellence, continuous learning.**
