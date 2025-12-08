@@ -1,8 +1,20 @@
-# 🚀 drewsky - AI Collaboration Framework for Claude Code
+# 🚀 drewsky - AI Collaboration Framework
 
-**Transform Claude Code into a 10x more effective AI assistant**
+**Transform your AI coding assistant into a 10x more effective partner**
 
 > *Combining prompt engineering best practices from Google's AI course and AI Engineering techniques to create a structured, verifiable, and transparent AI collaboration workflow.*
+
+**Compatible with:** Claude Code • Cursor • Windsurf • VS Code (Continue.dev) • Any AI coding assistant
+
+---
+
+## 🎯 Choose Your Platform
+
+| Platform | Setup Time | Installation Guide |
+|----------|-----------|-------------------|
+| **Cursor** | 30 seconds | See [Cursor Setup](#cursor-quick-start) below ⬇️ |
+| **Claude Code** | 60 seconds | See [Claude Code Setup](#claude-code-quick-start) below ⬇️ |
+| **Other AI Tools** | 2 minutes | See [Custom Setup](#custom-setup) below ⬇️ |
 
 ---
 
@@ -113,7 +125,36 @@ This package contains everything you need to install the **drewsky (Research →
 
 ---
 
-## ⚡ Quick Start (60 seconds)
+## ⚡ Cursor Quick Start
+
+**30 seconds to transform Cursor into a 10x AI assistant**
+
+### One Command Installation:
+
+```bash
+# In your project directory
+curl -o .cursorrules https://raw.githubusercontent.com/drewbeyersdorf/agent-improvement-techniques/main/.cursorrules
+```
+
+**Or download from this package:**
+```bash
+cd drewsky_Framework_Package
+./install-drewsky-cursor.sh
+# Choose your installation option
+```
+
+### Test It:
+Open Cursor and ask: **"Add a search feature"**
+
+✅ **If Cursor asks TCREI questions (Context, Evaluation, etc.), it's working!**
+
+📖 **Full Guide**: See [CURSOR_SETUP_GUIDE.md](CURSOR_SETUP_GUIDE.md) for detailed instructions
+
+---
+
+## ⚡ Claude Code Quick Start
+
+**60 seconds to transform Claude Code into a 10x AI assistant**
 
 ### Step 1: Download This Package
 
