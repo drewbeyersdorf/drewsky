@@ -1,8 +1,8 @@
-# 🎯 RPI Framework v2.0 Integration Summary
+# 🎯 drewsky Framework v2.0 Integration Summary
 
 ## What Was Done
 
-Successfully integrated cutting-edge AI research from 4 major research institutions into the RPI Framework, creating the most comprehensive AI collaboration system available.
+Successfully integrated cutting-edge AI research from 4 major research institutions into the drewsky Framework, creating the most comprehensive AI collaboration system available.
 
 ---
 
@@ -137,7 +137,7 @@ Track over time:
 
 ## 📁 Files Modified
 
-### 1. ENFORCED_RPI_PROTOCOL.md
+### 1. ENFORCED_DREWSKY_PROTOCOL.md
 **Changes**: +638 lines
 **New Content**:
 - Rule 15: Meta's 4-Step CoVe (detailed methodology)
@@ -165,18 +165,18 @@ Track over time:
 
 **Latest Commit**:
 ```
-🔬 RPI Framework v2.0: Research-Backed Enhancements
+🔬 drewsky Framework v2.0: Research-Backed Enhancements
 
 Result: 18 total rules, research-backed rigor, continuous learning
 ```
 
 **Files**:
-- ENFORCED_RPI_PROTOCOL.md (2,290 lines)
+- ENFORCED_DREWSKY_PROTOCOL.md (2,290 lines)
 - README.md (503 lines)
 - OPERATIONAL_LOGIC_INTEGRATION.md (629 lines)
 - instructions.md (auto-loaded by Claude Code)
-- RPI_STATUS.md (testing guide)
-- install-rpi-framework.sh (automated installer)
+- DREWSKY_STATUS.md (testing guide)
+- install-drewsky-framework.sh (automated installer)
 
 **Total Framework Size**: ~4,000+ lines of comprehensive documentation
 
@@ -265,4 +265,4 @@ Result: 18 total rules, research-backed rigor, continuous learning
 
 ---
 
-**RPI Framework v2.0: The gold standard for AI collaboration** 🏆
+**drewsky Framework v2.0: The gold standard for AI collaboration** 🏆

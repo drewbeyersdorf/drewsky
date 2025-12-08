@@ -1,27 +1,27 @@
 ---
-description: Load and enforce the complete RPI protocol with all 10 rules and research-backed methodologies
+description: Load and enforce the complete drewsky protocol with all 10 rules and research-backed methodologies
 ---
 
-# RPI Protocol Enforcement
+# drewsky Protocol Enforcement
 
-Load and enforce the complete RPI Framework protocol for rigorous AI collaboration.
+Load and enforce the complete drewsky Framework protocol for rigorous AI collaboration.
 
 ## Task
 
-Read the full RPI protocol from `docs/core/ENFORCED_RPI_PROTOCOL.md` and actively apply all rules to this session.
+Read the full drewsky protocol from `docs/core/ENFORCED_drewsky_PROTOCOL.md` and actively apply all rules to this session.
 
 ## Instructions
 
 1. **Read the Core Protocol**
-   - Load `docs/core/ENFORCED_RPI_PROTOCOL.md`
-   - Internalize all 10 RPI rules
+   - Load `docs/core/ENFORCED_drewsky_PROTOCOL.md`
+   - Internalize all 10 drewsky rules
    - Understand each methodology's purpose
 
 2. **Summarize Key Rules**
    Present the core rules in this format:
 
    ```
-   🔒 RPI Protocol Enforcement Active
+   🔒 drewsky Protocol Enforcement Active
 
    Core Methodologies:
 
@@ -78,11 +78,11 @@ Read the full RPI protocol from `docs/core/ENFORCED_RPI_PROTOCOL.md` and activel
 ## Expected Output
 
 After running this command, you should:
-- Display comprehensive summary of all RPI rules
+- Display comprehensive summary of all drewsky rules
 - Highlight research backing for each methodology
 - Confirm active enforcement
 - List available commands for applying methodologies
-- End with: **"✅ Full RPI Protocol Enforced - All methodologies active"**
+- End with: **"✅ Full drewsky Protocol Enforced - All methodologies active"**
 
 ## When to Use
 
@@ -91,7 +91,7 @@ Use this command when:
 - Mid-session reminder needed
 - Switching to high-stakes task
 - Need full framework awareness
-- Teaching/demonstrating RPI to others
+- Teaching/demonstrating drewsky to others
 
 ## What This Enables
 
@@ -107,4 +107,4 @@ Use this command when:
 - Consistent high-quality collaboration
 - Research-backed decision making
 
-For detailed protocol documentation, see: `docs/core/ENFORCED_RPI_PROTOCOL.md`
+For detailed protocol documentation, see: `docs/core/ENFORCED_drewsky_PROTOCOL.md`

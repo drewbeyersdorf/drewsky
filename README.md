@@ -1,4 +1,4 @@
-# 🚀 RPI Framework for Claude Code
+# 🚀 drewsky - AI Collaboration Framework for Claude Code
 
 **Transform Claude Code into a 10x more effective AI assistant**
 
@@ -63,7 +63,7 @@ While exploring AI coding assistants, I noticed consistent issues:
 
 ### ✨ The Solution
 
-By applying academic prompt engineering frameworks to Claude Code's workflow system, I created **RPI (Research → Plan → Implement)** with cognitive enhancements:
+By applying academic prompt engineering frameworks to Claude Code's workflow system, I created **drewsky (Research → Plan → Implement)** with cognitive enhancements:
 
 - ✅ **TCREI Validation** ensures mutual understanding before starting
 - ✅ **Chain of Verification** eliminates hallucinations and assumptions
@@ -87,7 +87,7 @@ This isn't just a prompt template—it's a complete restructuring of how AI assi
 - **TCREI**: Adapted from Google's prompt engineering guidelines
 - **MAKER**: Based on agile task decomposition principles + Microsoft's Magentic-One
 - **CoVe**: Meta AI's 4-step verification methodology + academic research
-- **RPI Workflow**: Original synthesis combining all techniques
+- **drewsky Workflow**: Original synthesis combining all techniques
 - **Operational Excellence**: Schema-first, verification-driven, autonomous debugging
 - **Research Enhancements (v2.0)**: Meta, Microsoft, Stanford, DeepMind integrations
 
@@ -99,17 +99,17 @@ This isn't just a prompt template—it's a complete restructuring of how AI assi
 
 ## 📦 What's in This Package?
 
-This package contains everything you need to install the **RPI (Research → Plan → Implement) Framework with Cognitive Enhancements** for Claude Code.
+This package contains everything you need to install the **drewsky (Research → Plan → Implement) Framework with Cognitive Enhancements** for Claude Code.
 
 ### Files Included:
 
 | File | Description |
 |------|-------------|
-| `install-rpi-framework.sh` | **Automatic installer script (recommended)** |
-| `RPI_FRAMEWORK_SETUP_GUIDE.md` | **Complete setup guide with examples** |
+| `install-drewsky-framework.sh` | **Automatic installer script (recommended)** |
+| `DREWSKY_FRAMEWORK_SETUP_GUIDE.md` | **Complete setup guide with examples** |
 | `instructions.md` | Main framework file (auto-loaded by Claude Code) |
-| `ENFORCED_RPI_PROTOCOL.md` | Complete protocol rules and behaviors |
-| `RPI_STATUS.md` | Status, testing, and verification guide |
+| `ENFORCED_DREWSKY_PROTOCOL.md` | Complete protocol rules and behaviors |
+| `DREWSKY_STATUS.md` | Status, testing, and verification guide |
 
 ---
 
@@ -117,21 +117,21 @@ This package contains everything you need to install the **RPI (Research → Pla
 
 ### Step 1: Download This Package
 
-Download or clone this entire `RPI_Framework_Package` folder.
+Download or clone this entire `drewsky_Framework_Package` folder.
 
 ### Step 2: Run the Installer
 
 **Option A: Global Install (Recommended)**
 ```bash
-cd RPI_Framework_Package
-./install-rpi-framework.sh
+cd drewsky_Framework_Package
+./install-drewsky-framework.sh
 # Choose option 1 (global)
 ```
 
 **Option B: Project-Specific Install**
 ```bash
-cd RPI_Framework_Package
-./install-rpi-framework.sh
+cd drewsky_Framework_Package
+./install-drewsky-framework.sh
 # Choose option 2 (project-specific)
 ```
 
@@ -156,14 +156,14 @@ Expected response: Claude will ask TCREI validation questions (Context, Evaluati
 
 ## 📖 What Does This Do?
 
-### Before RPI ❌
+### Before drewsky ❌
 ```
 You: "Add user authentication"
 Claude: [Immediately implements something]
 You: "That's not what I wanted!"
 ```
 
-### After RPI ✅
+### After drewsky ✅
 ```
 You: "Add user authentication"
 Claude: "I need to clarify:
@@ -196,7 +196,7 @@ After installation, Claude Code will automatically:
 
 ## 🧠 The Complete Framework (18 Rules)
 
-### Core RPI Workflow (Rules 1-5)
+### Core drewsky Workflow (Rules 1-5)
 1. **Research First** - Always explore before implementing
 2. **Explicit Planning** - Code snippets and approval gates
 3. **Controlled Implementation** - Follow approved plan exactly
@@ -231,7 +231,7 @@ After installation, Claude Code will automatically:
 2. Test with a simple command
 
 ### For Detailed Understanding:
-Read `RPI_FRAMEWORK_SETUP_GUIDE.md` for:
+Read `DREWSKY_FRAMEWORK_SETUP_GUIDE.md` for:
 - Complete installation instructions
 - Usage examples
 - Troubleshooting
@@ -239,14 +239,14 @@ Read `RPI_FRAMEWORK_SETUP_GUIDE.md` for:
 - FAQ
 
 ### For Protocol Details:
-Read `ENFORCED_RPI_PROTOCOL.md` for:
+Read `ENFORCED_DREWSKY_PROTOCOL.md` for:
 - Complete workflow rules
 - Quality gates
 - Forbidden behaviors
 - Response templates
 
 ### For Testing:
-Read `RPI_STATUS.md` for:
+Read `DREWSKY_STATUS.md` for:
 - Verification procedures
 - Test scenarios
 - Success indicators
@@ -260,16 +260,16 @@ If you prefer manual installation:
 1. **Global Install:**
    ```bash
    cp instructions.md ~/.claude/
-   cp ENFORCED_RPI_PROTOCOL.md ~/.claude/
-   cp RPI_STATUS.md ~/.claude/
+   cp ENFORCED_DREWSKY_PROTOCOL.md ~/.claude/
+   cp DREWSKY_STATUS.md ~/.claude/
    ```
 
 2. **Project Install:**
    ```bash
    mkdir -p .claude
    cp instructions.md .claude/
-   cp ENFORCED_RPI_PROTOCOL.md .claude/
-   cp RPI_STATUS.md .claude/
+   cp ENFORCED_DREWSKY_PROTOCOL.md .claude/
+   cp DREWSKY_STATUS.md .claude/
    ```
 
 3. Restart Claude Code
@@ -390,23 +390,23 @@ To remove the framework:
 ```bash
 # Global uninstall
 rm ~/.claude/instructions.md
-rm ~/.claude/ENFORCED_RPI_PROTOCOL.md
-rm ~/.claude/RPI_STATUS.md
+rm ~/.claude/ENFORCED_DREWSKY_PROTOCOL.md
+rm ~/.claude/DREWSKY_STATUS.md
 
 # Project uninstall
 rm .claude/instructions.md
-rm .claude/ENFORCED_RPI_PROTOCOL.md
-rm .claude/RPI_STATUS.md
+rm .claude/ENFORCED_DREWSKY_PROTOCOL.md
+rm .claude/DREWSKY_STATUS.md
 ```
 
 ---
 
 ## 💡 Override Commands
 
-Need to bypass RPI for a quick task?
+Need to bypass drewsky for a quick task?
 
 ```
-"Skip RPI: [your task]"
+"Skip drewsky: [your task]"
 "Emergency mode: [your task]"
 "No plan needed: [your task]"
 ```
@@ -419,12 +419,12 @@ Claude will warn you but comply.
 
 To share with others:
 
-1. **Send the entire `RPI_Framework_Package` folder**
-2. **Tell them to run:** `./install-rpi-framework.sh`
+1. **Send the entire `drewsky_Framework_Package` folder**
+2. **Tell them to run:** `./install-drewsky-framework.sh`
 3. **That's it!**
 
 You can also:
-- Zip the package: `zip -r RPI_Framework.zip RPI_Framework_Package/`
+- Zip the package: `zip -r drewsky_Framework.zip drewsky_Framework_Package/`
 - Upload to GitHub/Drive/Dropbox
 - Email the zip file
 
@@ -460,9 +460,9 @@ You can also:
 
 If you encounter issues:
 
-1. Read the troubleshooting section in `RPI_FRAMEWORK_SETUP_GUIDE.md`
-2. Check `RPI_STATUS.md` for verification tests
-3. Ask Claude: "Am I operating under RPI protocol?"
+1. Read the troubleshooting section in `DREWSKY_FRAMEWORK_SETUP_GUIDE.md`
+2. Check `DREWSKY_STATUS.md` for verification tests
+3. Ask Claude: "Am I operating under drewsky protocol?"
 
 ---
 
@@ -471,7 +471,7 @@ If you encounter issues:
 **Ready to 10x your AI collaboration?**
 
 ```bash
-./install-rpi-framework.sh
+./install-drewsky-framework.sh
 ```
 
 Choose your installation scope, restart Claude Code, and experience the difference!

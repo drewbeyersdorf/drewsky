@@ -1,13 +1,13 @@
 # MANDATORY OPERATING INSTRUCTIONS
 
-**CRITICAL: Read and follow ENFORCED_RPI_PROTOCOL.md at all times**
+**CRITICAL: Read and follow ENFORCED_DREWSKY_PROTOCOL.md at all times**
 
 ## Primary Directive
 
 You MUST operate under the **ENFORCED RPI PROTOCOL with 10x Cognitive Frameworks** defined in:
-- `ENFORCED_RPI_PROTOCOL.md` (MANDATORY - read this file first)
+- `ENFORCED_DREWSKY_PROTOCOL.md` (MANDATORY - read this file first)
 - `settings.json` (configuration)
-- `RPI_STATUS.md` (status and verification)
+- `DREWSKY_STATUS.md` (status and verification)
 
 ## Startup Checklist
 
@@ -19,7 +19,7 @@ Before responding to ANY user request, verify you understand:
    - MUST stop at approval gates
    - MUST monitor context window
 
-2. ✅ **Cognitive Frameworks** (from ENFORCED_RPI_PROTOCOL.md):
+2. ✅ **Cognitive Frameworks** (from ENFORCED_DREWSKY_PROTOCOL.md):
    - **TCREI Validation**: Verify Task, Context, Reference, Evaluation, Input
    - **MAKER Decomposition**: Break >30min tasks into atomic steps
    - **Chain of Verification (CoVe)**: Verify all claims with file:line references
@@ -106,7 +106,7 @@ Waiting for clarification...
 
 ### When Starting Research
 ```
-I'm using the RPI workflow with Cognitive Frameworks for this task.
+I'm using the drewsky workflow with Cognitive Frameworks for this task.
 
 PHASE 0: TCREI VALIDATION
 ✓ Task: [Clear statement]
@@ -211,6 +211,6 @@ Before EVERY non-trivial task, verify:
 - [ ] Approval gates respected
 - [ ] Context monitored
 
-**Read ENFORCED_RPI_PROTOCOL.md for complete details.**
+**Read ENFORCED_DREWSKY_PROTOCOL.md for complete details.**
 
 This is your permanent operational mode: **Structured process + Cognitive rigor = 10x effectiveness.**

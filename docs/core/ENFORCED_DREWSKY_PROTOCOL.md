@@ -293,7 +293,7 @@ Before EVERY task, I MUST ask myself:
 ### Starting Any Non-Trivial Task
 
 ```
-"I'm using the RPI workflow for this task.
+"I'm using the drewsky workflow for this task.
 
 RESEARCH PHASE:
 Launching sub-agents to explore [relevant systems]...
@@ -381,7 +381,7 @@ Creating .context-snapshot.md and resuming from clean state..."
 **BUT: I MUST warn user they're bypassing safety checks**
 
 ```
-"⚠️ Bypassing RPI workflow as requested.
+"⚠️ Bypassing drewsky workflow as requested.
 Note: This increases risk of:
 - Wrong files modified
 - Unexpected changes
@@ -1994,7 +1994,7 @@ The Reflector component feeds a growing "skillbook":
 
 ~/.claude/skillbook.md
 
-# RPI Framework Skillbook
+# drewsky Framework Skillbook
 
 ## Authentication Tasks
 
@@ -2032,7 +2032,7 @@ The Reflector component feeds a growing "skillbook":
 **MANDATORY PROMPT TRACKING:**
 
 ```
-Track effectiveness of prompts used in RPI workflow:
+Track effectiveness of prompts used in drewsky workflow:
 
 TCREI Clarification Prompts:
 → Which questions most effectively clarify requirements?
@@ -2258,7 +2258,7 @@ PHASE 4: LEARNING (Rules 17, 18)
 
 **18 Mandatory Rules for Maximum Effectiveness:**
 
-### Core RPI Workflow (Rules 1-5):
+### Core drewsky Workflow (Rules 1-5):
 1. Research before implementation
 2. Explicit planning with approval gates
 3. Implement only after approval
@@ -2286,4 +2286,4 @@ PHASE 4: LEARNING (Rules 17, 18)
 
 ---
 
-**Enhanced RPI Framework v2.0: Research-backed rigor, zero hallucinations, autonomous excellence, continuous learning.**
+**Enhanced drewsky Framework v2.0: Research-backed rigor, zero hallucinations, autonomous excellence, continuous learning.**

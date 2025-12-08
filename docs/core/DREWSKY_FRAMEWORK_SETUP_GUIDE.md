@@ -1,4 +1,4 @@
-# 🚀 RPI Framework Setup Guide for Claude Code
+# 🚀 drewsky Framework Setup Guide for Claude Code
 
 **Transform Claude Code into a 10x more effective AI assistant**
 
@@ -8,7 +8,7 @@ This guide will help you install the **RPI (Research → Plan → Implement) Fra
 
 ## 📖 Table of Contents
 
-1. [What is RPI Framework?](#what-is-rpi-framework)
+1. [What is drewsky Framework?](#what-is-rpi-framework)
 2. [Why Use It?](#why-use-it)
 3. [What You'll Get](#what-youll-get)
 4. [Prerequisites](#prerequisites)
@@ -21,9 +21,9 @@ This guide will help you install the **RPI (Research → Plan → Implement) Fra
 
 ---
 
-## What is RPI Framework?
+## What is drewsky Framework?
 
-The RPI Framework is a structured workflow that forces Claude Code to:
+The drewsky Framework is a structured workflow that forces Claude Code to:
 
 1. **Research** - Explore and understand before coding
 2. **Plan** - Create explicit plans with approval gates
@@ -39,7 +39,7 @@ The RPI Framework is a structured workflow that forces Claude Code to:
 
 ## Why Use It?
 
-### Without RPI Framework ❌
+### Without drewsky Framework ❌
 ```
 You: "Add user authentication"
 Claude: [Immediately starts coding]
@@ -48,7 +48,7 @@ Claude: [Implements something you didn't want]
 You: "Wait, that's not what I meant!"
 ```
 
-### With RPI Framework ✅
+### With drewsky Framework ✅
 ```
 You: "Add user authentication"
 Claude: "TCREI VALIDATION - I need to clarify:
@@ -101,12 +101,12 @@ After installation, Claude Code will:
 
 ### Method 1: Quick Install (Recommended)
 
-**Step 1: Download the RPI Framework Files**
+**Step 1: Download the drewsky Framework Files**
 
 You need 3 files (your friend will provide these):
 - `instructions.md`
-- `ENFORCED_RPI_PROTOCOL.md`
-- `RPI_STATUS.md`
+- `ENFORCED_DREWSKY_PROTOCOL.md`
+- `DREWSKY_STATUS.md`
 
 **Step 2: Choose Installation Scope**
 
@@ -117,8 +117,8 @@ mkdir -p ~/.claude
 
 # Copy the 3 files
 cp instructions.md ~/.claude/
-cp ENFORCED_RPI_PROTOCOL.md ~/.claude/
-cp RPI_STATUS.md ~/.claude/
+cp ENFORCED_DREWSKY_PROTOCOL.md ~/.claude/
+cp DREWSKY_STATUS.md ~/.claude/
 ```
 
 **Option B: Project-Specific (Single Project Only)**
@@ -131,8 +131,8 @@ mkdir -p .claude
 
 # Copy the 3 files
 cp instructions.md .claude/
-cp ENFORCED_RPI_PROTOCOL.md .claude/
-cp RPI_STATUS.md .claude/
+cp ENFORCED_DREWSKY_PROTOCOL.md .claude/
+cp DREWSKY_STATUS.md .claude/
 ```
 
 **Step 3: Update Settings (Optional but Recommended)**
@@ -184,8 +184,8 @@ cd /path/to/project && mkdir -p .claude
 
 The 3 required files will be provided separately:
 1. `instructions.md` - Main entry point (auto-loaded by Claude Code)
-2. `ENFORCED_RPI_PROTOCOL.md` - Complete protocol rules
-3. `RPI_STATUS.md` - Status and testing guide
+2. `ENFORCED_DREWSKY_PROTOCOL.md` - Complete protocol rules
+3. `DREWSKY_STATUS.md` - Status and testing guide
 
 Place them in your `.claude/` directory (global or project-specific).
 
@@ -202,13 +202,13 @@ Add RPI configuration to `~/.claude/settings.json` (see settings above).
 ```bash
 # For global install
 ls -l ~/.claude/instructions.md
-ls -l ~/.claude/ENFORCED_RPI_PROTOCOL.md
-ls -l ~/.claude/RPI_STATUS.md
+ls -l ~/.claude/ENFORCED_DREWSKY_PROTOCOL.md
+ls -l ~/.claude/DREWSKY_STATUS.md
 
 # For project install
 ls -l .claude/instructions.md
-ls -l .claude/ENFORCED_RPI_PROTOCOL.md
-ls -l .claude/RPI_STATUS.md
+ls -l .claude/ENFORCED_DREWSKY_PROTOCOL.md
+ls -l .claude/DREWSKY_STATUS.md
 ```
 
 You should see all 3 files.
@@ -253,7 +253,7 @@ Ask:
 
 **Expected Response:**
 ```
-I'm using the RPI workflow for this task.
+I'm using the drewsky workflow for this task.
 
 RESEARCH PHASE:
 Launching sub-agents to explore authentication system...
@@ -469,7 +469,7 @@ Say: "Fix the authentication bug in auth.ts that's causing 401 errors on /login 
 
 ### Issue: Files Not Found
 
-**Problem:** Claude says it can't find `ENFORCED_RPI_PROTOCOL.md`.
+**Problem:** Claude says it can't find `ENFORCED_DREWSKY_PROTOCOL.md`.
 
 **Solution:**
 Ensure all 3 files are in the same directory:
@@ -499,8 +499,8 @@ To remove the RPI framework:
 ```bash
 # Global uninstall
 rm ~/.claude/instructions.md
-rm ~/.claude/ENFORCED_RPI_PROTOCOL.md
-rm ~/.claude/RPI_STATUS.md
+rm ~/.claude/ENFORCED_DREWSKY_PROTOCOL.md
+rm ~/.claude/DREWSKY_STATUS.md
 
 # Optionally remove RPI settings from ~/.claude/settings.json
 ```
@@ -522,7 +522,7 @@ A: Say "Emergency mode" and Claude will skip RPI with a warning.
 A: Yes, as long as your Claude Code supports `.claude/instructions.md` auto-loading (v0.2.0+).
 
 **Q: Can I customize the protocol?**
-A: Yes! Edit `ENFORCED_RPI_PROTOCOL.md` to adjust rules, thresholds, or add your own requirements.
+A: Yes! Edit `ENFORCED_DREWSKY_PROTOCOL.md` to adjust rules, thresholds, or add your own requirements.
 
 ---
 
@@ -530,8 +530,8 @@ A: Yes! Edit `ENFORCED_RPI_PROTOCOL.md` to adjust rules, thresholds, or add your
 
 If you run into issues:
 
-1. Read the `RPI_STATUS.md` file for verification tests
-2. Check the `ENFORCED_RPI_PROTOCOL.md` for detailed rules
+1. Read the `DREWSKY_STATUS.md` file for verification tests
+2. Check the `ENFORCED_DREWSKY_PROTOCOL.md` for detailed rules
 3. Ask Claude: "Am I operating under RPI protocol?"
 
 ---

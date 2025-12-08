@@ -1,4 +1,4 @@
-# RPI Framework Status
+# drewsky Framework Status
 
 ## ✅ ENFORCED RPI MODE + 10x COGNITIVE FRAMEWORKS: ACTIVE
 
@@ -158,9 +158,9 @@ If you don't see these → Framework NOT active
 
 | File | Purpose |
 |------|---------|
-| `ENFORCED_RPI_PROTOCOL.md` | The rules Claude follows |
+| `ENFORCED_DREWSKY_PROTOCOL.md` | The rules Claude follows |
 | `settings.json` | Configuration settings |
-| `RPI_STATUS.md` | This status file |
+| `DREWSKY_STATUS.md` | This status file |
 | `USER_GUIDE_context_engineering.md` | Your complete guide |
 | `QUICK_REFERENCE.md` | Your cheat sheet |
 | `agent_context_engineering.md` | Technical protocol |
@@ -221,7 +221,7 @@ If you need to bypass RPI for a specific task:
 
 ## Next Steps
 
-1. **Test it**: Give Claude a complex task and watch the RPI workflow activate
+1. **Test it**: Give Claude a complex task and watch the drewsky workflow activate
 2. **Review outputs**: Look for `.research.md` and `.plan.md` files
 3. **Use approval gates**: Take control at each STOP point
 4. **Monitor context**: Claude will report context % automatically
@@ -245,7 +245,7 @@ If you need to bypass RPI for a specific task:
 **Bypass**: Available via override commands
 **Monitoring**: Automatic context tracking + cognitive quality gates enabled
 
-**You now have mandatory RPI workflow enhanced with 10x Cognitive Frameworks:**
+**You now have mandatory drewsky workflow enhanced with 10x Cognitive Frameworks:**
 - ✅ TCREI Validation - Input clarity enforced
 - ✅ MAKER Decomposition - Complex tasks broken into atomic steps
 - ✅ Chain of Verification - All claims verified with sources

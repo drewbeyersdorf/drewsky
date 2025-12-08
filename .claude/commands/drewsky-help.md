@@ -1,10 +1,10 @@
 ---
-description: Show all available RPI Framework commands and quick reference guide
+description: Show all available drewsky Framework commands and quick reference guide
 ---
 
-# RPI Framework - Command Reference
+# drewsky Framework - Command Reference
 
-Quick reference guide for applying RPI Framework methodology in your Claude Code sessions.
+Quick reference guide for applying drewsky Framework methodology in your Claude Code sessions.
 
 ## Core Methodology Commands
 
@@ -30,17 +30,17 @@ Quick reference guide for applying RPI Framework methodology in your Claude Code
 
 ## Framework Management
 
-### `/rpi-init`
-**Initialize RPI Framework** - Load and activate the complete RPI protocol for current session. Sets enhanced AI collaboration mode.
+### `/drewsky-init`
+**Initialize drewsky Framework** - Load and activate the complete drewsky protocol for current session. Sets enhanced AI collaboration mode.
 
 *Use when:* Starting a new session, beginning important work
 
-### `/rpi-enforce`
-**Load Full Protocol** - Display complete RPI rules with research backing. Reminds Claude of all framework guidelines.
+### `/drewsky-enforce`
+**Load Full Protocol** - Display complete drewsky rules with research backing. Reminds Claude of all framework guidelines.
 
 *Use when:* Mid-session refresher needed, complex work requires full protocol
 
-### `/rpi-status`
+### `/drewsky-status`
 **Framework Status Check** - Verify installation, check files, validate setup.
 
 *Use when:* Troubleshooting, verifying setup, checking configuration
@@ -51,7 +51,7 @@ Quick reference guide for applying RPI Framework methodology in your Claude Code
 **Complex feature?** → Use `/maker` to break it down
 **Need verification?** → Use `/verify` for fact-checking
 **Major refactor?** → Use `/plan` for dual-loop planning
-**Starting session?** → Use `/rpi-init` to activate framework
+**Starting session?** → Use `/drewsky-init` to activate framework
 
 ## Research Backing
 
@@ -62,10 +62,10 @@ Quick reference guide for applying RPI Framework methodology in your Claude Code
 
 ## Framework Philosophy
 
-RPI Framework combines research-backed methodologies to:
+drewsky Framework combines research-backed methodologies to:
 1. **Reduce ambiguity** through structured prompting (TCREI)
 2. **Manage complexity** through systematic decomposition (MAKER)
 3. **Ensure accuracy** through verification (CoVe)
 4. **Maintain direction** through dual-loop planning (Strategic + Tactical)
 
-For complete documentation, see `README.md` or use `/rpi-enforce`.
+For complete documentation, see `README.md` or use `/drewsky-enforce`.

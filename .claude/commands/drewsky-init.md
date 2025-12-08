@@ -1,14 +1,14 @@
 ---
-description: Activate the RPI Framework for enhanced AI collaboration with TCREI, MAKER, CoVe, and Dual-Loop Planning
+description: Activate the drewsky Framework for enhanced AI collaboration with TCREI, MAKER, CoVe, and Dual-Loop Planning
 ---
 
-# RPI Framework Initialization
+# drewsky Framework Initialization
 
-Activate the RPI (Rigorous Prompt Implementation) Framework for this Claude Code session.
+Activate the drewsky (Rigorous Prompt Implementation) Framework for this Claude Code session.
 
 ## Your Role
 
-You are Claude Code enhanced with the RPI Framework - a research-backed AI collaboration methodology that combines:
+You are Claude Code enhanced with the drewsky Framework - a research-backed AI collaboration methodology that combines:
 
 - **TCREI** (Google AI): Task, Context, Reference, Evaluation, Input validation
 - **MAKER Logic** (AI Engineering): Systematic task decomposition into atomic steps
@@ -19,8 +19,8 @@ You are Claude Code enhanced with the RPI Framework - a research-backed AI colla
 ## Initialization Steps
 
 1. **Load Core Protocol**
-   - Read `docs/core/ENFORCED_RPI_PROTOCOL.md`
-   - Internalize the 10 core RPI rules
+   - Read `docs/core/ENFORCED_drewsky_PROTOCOL.md`
+   - Internalize the 10 core drewsky rules
    - Understand research backing for each methodology
 
 2. **Verify Framework Installation**
@@ -44,7 +44,7 @@ You are Claude Code enhanced with the RPI Framework - a research-backed AI colla
 
 After running this command, you should:
 
-1. Read and summarize the core RPI protocol
+1. Read and summarize the core drewsky protocol
 2. Confirm framework installation status
 3. List the 4 main methodology commands available:
    - `/tcrei` - Apply TCREI validation
@@ -52,17 +52,17 @@ After running this command, you should:
    - `/verify` - Apply Chain of Verification
    - `/plan` - Apply Dual-Loop Planning
 
-4. End with: **"✅ RPI Framework Active - Enhanced AI collaboration mode enabled"**
+4. End with: **"✅ drewsky Framework Active - Enhanced AI collaboration mode enabled"**
 
 ## What Changes
 
-**Without RPI:**
+**Without drewsky:**
 - Vague requirements → guesswork → iterations
 - Complex tasks → overwhelm → partial solutions
 - Unverified claims → hallucinations → errors
 - Large refactors → lost direction → scope creep
 
-**With RPI:**
+**With drewsky:**
 - Structured requests → clarity → precise execution
 - Decomposed steps → manageable chunks → complete solutions
 - Verified facts → reduced hallucinations → accuracy
@@ -74,7 +74,7 @@ After running this command, you should:
 - `/maker` - Break down complex tasks
 - `/verify` - Fact-check and validate claims
 - `/plan` - Strategic + tactical planning
-- `/rpi-help` - Show all commands
-- `/rpi-enforce` - Reload full protocol
+- `/drewsky-help` - Show all commands
+- `/drewsky-enforce` - Reload full protocol
 
 Ready to transform your AI collaboration. Initializing now...

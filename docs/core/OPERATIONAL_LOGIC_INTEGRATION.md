@@ -1,8 +1,8 @@
 # 🧠 Operational Logic Integration Guide
 
-**How "Anti-Vibe" Verification Rules Enhance the RPI Framework**
+**How "Anti-Vibe" Verification Rules Enhance the drewsky Framework**
 
-This document shows how operational logic constraints integrate with and enhance the RPI Framework's cognitive foundations.
+This document shows how operational logic constraints integrate with and enhance the drewsky Framework's cognitive foundations.
 
 ---
 
@@ -13,7 +13,7 @@ This document shows how operational logic constraints integrate with and enhance
 Both frameworks share a fundamental principle:
 
 > **Verification over Assumption**
-> - RPI Framework: "Chain of Verification (CoVe) - verify all claims with file:line references"
+> - drewsky Framework: "Chain of Verification (CoVe) - verify all claims with file:line references"
 > - Operational Logic: "Anti-Vibe Verification Rule - execution is completion, not generation"
 
 **Synergy:** These approaches are **complementary, not redundant**. RPI provides the *cognitive structure*, while Operational Logic provides *execution discipline*.
@@ -22,7 +22,7 @@ Both frameworks share a fundamental principle:
 
 ## 📊 Side-by-Side Comparison
 
-| RPI Framework (Cognitive) | Operational Logic (Execution) | Integration Strategy |
+| drewsky Framework (Cognitive) | Operational Logic (Execution) | Integration Strategy |
 |---------------------------|-------------------------------|---------------------|
 | **TCREI Validation** - Ensure task clarity | **Context-First Pattern** - Read backend before UI | ✅ **TCREI includes reading schema/backend as Input** |
 | **Chain of Verification** - Verify claims with sources | **Schema is Law** - Verify against actual schema | ✅ **CoVe verifies schema.ts as source of truth** |
@@ -52,7 +52,7 @@ BEFORE marking task complete:
 Confidence Score: 100% only after verified test pass
 ```
 
-**Implementation in ENFORCED_RPI_PROTOCOL.md:**
+**Implementation in ENFORCED_DREWSKY_PROTOCOL.md:**
 ```markdown
 ### Implementation Quality Gate (ENHANCED)
 
@@ -370,7 +370,7 @@ MUST say:
 
 ---
 
-## 🔗 Complete Integration: Enhanced RPI Protocol
+## 🔗 Complete Integration: Enhanced drewsky Protocol
 
 ### Updated Workflow with Operational Logic
 
@@ -592,7 +592,7 @@ Created .completion-snapshot.md with actual test outputs
 
 ## 📖 Summary: Why This Integration Works
 
-### RPI Framework Provides:
+### drewsky Framework Provides:
 - 🧠 **Cognitive Structure** (how to think)
 - 📋 **Process Discipline** (what order to do things)
 - ✅ **Verification Framework** (how to confirm)
@@ -614,15 +614,15 @@ Created .completion-snapshot.md with actual test outputs
 
 To add these enhancements:
 
-1. **Update ENFORCED_RPI_PROTOCOL.md** with Rules 10-13
+1. **Update ENFORCED_DREWSKY_PROTOCOL.md** with Rules 10-13
 2. **Add this file** to explain the integration
 3. **Update settings.json** with operational flags
 4. **Test** with a real task to verify integration
 
-The result: **RPI Framework with Operational Excellence** - The most rigorous AI collaboration system available.
+The result: **drewsky Framework with Operational Excellence** - The most rigorous AI collaboration system available.
 
 ---
 
 **Version:** 1.1 (Enhanced with Operational Logic)
-**Compatibility:** Works with existing RPI Framework
+**Compatibility:** Works with existing drewsky Framework
 **Recommendation:** Apply all enhancements for maximum effectiveness
