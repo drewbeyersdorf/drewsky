@@ -1,0 +1,35 @@
+# TCREI Short - Voice Narration (30 seconds)
+
+[0:00] STOP letting AI guess what you want!
+
+[0:03] Most developers just say "add authentication"
+and wonder why AI builds the wrong thing.
+
+[0:08] There's a better way: T-C-R-E-I
+
+[0:11] T - Task: What exactly do you need?
+
+[0:14] C - Context: Why is it needed?
+
+[0:16] R - Reference: Any existing patterns?
+
+[0:19] E - Evaluation: How do you measure success?
+
+[0:22] I - Input: Should AI read your schema first?
+
+[0:25] Result? You and AI are perfectly aligned
+before ANY code is written.
+
+[0:28] Try the RPI Framework. Link in bio!
+
+---
+
+INSTRUCTIONS FOR SPEECHMA (https://speechma.com/english):
+1. Copy the text above (without timestamps)
+2. Paste into SPEECHMA
+3. Voice: "US English - Female Professional"
+4. Speed: 1.1x (energetic, fast-paced)
+5. Click "Convert to Speech"
+6. Download MP3
+
+TOTAL DURATION: 30 seconds
