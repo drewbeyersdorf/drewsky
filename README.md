@@ -2,6 +2,69 @@
 
 **Transform Claude Code into a 10x more effective AI assistant**
 
+> *Combining prompt engineering best practices from Google's AI course and AI Engineering techniques to create a structured, verifiable, and transparent AI collaboration workflow.*
+
+---
+
+## 🎓 Origin Story & Inspiration
+
+This framework was developed by synthesizing advanced prompt engineering techniques discovered through:
+
+### 📺 Primary Learning Sources
+
+1. **[Google AI Course](https://www.youtube.com/googledevelopers)** (YouTube)
+   - **TCREI Framework**: Task, Context, Reference, Evaluation, Input validation
+   - **Chain of Verification (CoVe)**: Ensuring factual accuracy through source verification
+   - Prompt decomposition strategies
+   - Structured reasoning approaches
+
+2. **[AI Engineering / Prompt Engineering Course](https://www.youtube.com/results?search_query=ai+engineering+prompt+engineering)**
+   - **MAKER Logic**: Breaking complex tasks into atomic, manageable steps
+   - Confidence scoring and uncertainty management
+   - Context window optimization techniques
+   - Iterative refinement workflows
+
+### 💡 The Problem This Solves
+
+While exploring AI coding assistants, I noticed consistent issues:
+- ❌ AI would make assumptions instead of asking clarifying questions
+- ❌ Implementations would surprise me with unexpected changes
+- ❌ Claims were made without verification
+- ❌ Complex tasks became overwhelming and unmanageable
+- ❌ No visibility into AI's confidence level
+
+### ✨ The Solution
+
+By applying academic prompt engineering frameworks to Claude Code's workflow system, I created **RPI (Research → Plan → Implement)** with cognitive enhancements:
+
+- ✅ **TCREI Validation** ensures mutual understanding before starting
+- ✅ **Chain of Verification** eliminates hallucinations and assumptions
+- ✅ **MAKER Decomposition** makes complex tasks manageable
+- ✅ **Confidence Scoring** provides transparency about uncertainty
+- ✅ **Approval Gates** give you control at every phase
+
+This isn't just a prompt template—it's a complete restructuring of how AI assistants collaborate with developers.
+
+---
+
+## 🙏 Credits & Acknowledgments
+
+**Learning Resources:**
+- Google AI/ML YouTube courses on prompt engineering
+- AI Engineering courses on structured reasoning
+- Anthropic's Claude documentation on effective prompting
+- Academic research on Chain-of-Verification techniques
+
+**Framework Components:**
+- **TCREI**: Adapted from Google's prompt engineering guidelines
+- **MAKER**: Based on agile task decomposition principles
+- **CoVe**: Inspired by academic research on factual verification
+- **RPI Workflow**: Original synthesis combining all techniques
+
+**Built With:**
+- Claude Code CLI by Anthropic
+- Tested and refined through real-world development projects
+
 ---
 
 ## 📦 What's in This Package?
