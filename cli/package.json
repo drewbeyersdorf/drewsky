@@ -1,0 +1,51 @@
+{
+  "name": "drewsky",
+  "version": "0.1.0",
+  "description": "CLI tool for the drewsky AI collaboration framework - Research → Plan → Implement with built-in validation",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "drewsky": "./bin/drewsky.js"
+  },
+  "keywords": [
+    "ai",
+    "claude",
+    "cursor",
+    "prompt-engineering",
+    "workflow",
+    "productivity",
+    "cli",
+    "tcrei",
+    "verification",
+    "research",
+    "planning"
+  ],
+  "author": "Drew Beyersdorf",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drewbeyersdorf/agent-improvement-techniques"
+  },
+  "bugs": {
+    "url": "https://github.com/drewbeyersdorf/agent-improvement-techniques/issues"
+  },
+  "homepage": "https://github.com/drewbeyersdorf/agent-improvement-techniques#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "inquirer": "^9.2.12",
+    "chalk": "^5.3.0",
+    "ora": "^7.0.1",
+    "boxen": "^7.1.1",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.4"
+  },
+  "scripts": {
+    "test": "vitest",
+    "start": "node bin/drewsky.js"
+  }
+}
